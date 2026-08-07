@@ -1,6 +1,47 @@
 # PGF AI Portfolio
 
-基于 GitHub 个人主页 `pgf20160610` 创建的响应式静态个人技术网站。
+个人 AI 技术作品集，对应 GitHub Pages：
+
+- GitHub：`https://github.com/pgf20160610`
+- Portfolio：`https://pgf20160610.github.io/pgf-ai-portfolio/`
+
+## 自动同步机制
+
+网页以 GitHub Public REST API 为唯一项目数据源：
+
+```text
+GitHub public repositories
+        ↓
+Repository Name + Description + Topics + Language
+        ↓
+自动研究方向分类
+        ↓
+研究方向页面 + 最新项目
+```
+
+当前自动分类方向：
+
+- 3D 感知与 BEV
+- OCR 与文档智能
+- 语音与音频 AI
+- 多模态 / VLM / VLA
+- 机器人 / ROS2 / 标定
+- 2D 视觉 / 检测 / 姿态
+- 边缘 AI 部署
+- 其他 AI / 工程项目
+
+一个仓库只选择一个主研究方向，但允许显示多个技术标签。
+
+## 更新规则
+
+新建、修改或 push 公开仓库后，不需要修改本项目 HTML。访问者刷新网页时会重新读取 GitHub API，并自动：
+
+1. 过滤 Fork、Archived、Profile 仓库和 Portfolio 本身；
+2. 根据仓库元数据分类；
+3. 根据 `pushed_at` 排序最新项目；
+4. 显示 Language、Topics、Stars、Forks 和更新时间。
+
+建议为每个项目维护准确的 GitHub **Description** 和 **Topics**，分类会更稳定。
 
 ## 本地运行
 
@@ -10,16 +51,14 @@ python3 -m http.server 8080
 
 浏览器打开 `http://localhost:8080`。
 
-## 公网部署
+## GitHub Pages
 
-可直接部署到 GitHub Pages、Cloudflare Pages、Vercel、Netlify 或 Nginx。
+Repository → Settings → Pages：
 
+```text
+Deploy from a branch
+Branch: main
+Folder: / (root)
+```
 
-## GitHub 项目自动同步
-
-首页的“最新公开项目”区域通过 GitHub Public REST API 动态读取 `pgf20160610` 的公开仓库。创建或更新公开仓库后，访问者刷新页面即可看到最新内容，无需重新构建网站。
-
-- 数据接口：`https://api.github.com/users/pgf20160610/repos?per_page=100&sort=updated`
-- 默认隐藏 Fork、已归档仓库和个人 Profile 仓库
-- 默认展示最近更新的 9 个项目
-- API 不可用时自动降级，不影响静态代表项目展示
+保存后即可发布。
