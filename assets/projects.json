@@ -1,1 +1,115 @@
-{"generated_at": null, "projects": []}
+{
+  "generated_at": "2026-08-10T03:40:23.287946+00:00",
+  "projects": [
+    {
+      "name": "yololitePose_deploy_onnx_mnn_rknn",
+      "url": "https://github.com/pgf20160610/yololitePose_deploy_onnx_mnn_rknn",
+      "description": "description: 轻量级 YOLOv8/v9/v10/v11/v12/YOLO26 关键点检测 C++ 部署框架，支持 ONNXRuntime、MNN、RKNN 和 YAML 配置。",
+      "language": "C++",
+      "topics": [],
+      "stars": 0,
+      "forks": 0,
+      "updated": "2026-08-07T10:03:11Z",
+      "category": "边缘 AI 部署"
+    },
+    {
+      "name": "yololite_deploy_onnx_mnn_rknn",
+      "url": "https://github.com/pgf20160610/yololite_deploy_onnx_mnn_rknn",
+      "description": "description: 轻量级 YOLO 多版本(支持 YOLOv5、v7、v8、v9、v10、v11、v12 和 v26) C++ 检测部署框架，支持 ONNXRuntime、MNN、RKNN 和 YAML 配置。",
+      "language": "C++",
+      "topics": [],
+      "stars": 0,
+      "forks": 0,
+      "updated": "2026-08-07T06:03:05Z",
+      "category": "边缘 AI 部署"
+    },
+    {
+      "name": "yolov8_deploy_onnx_mnn_rknn",
+      "url": "https://github.com/pgf20160610/yolov8_deploy_onnx_mnn_rknn",
+      "description": "轻量级 YOLOv8 C++ 检测部署工程，支持 ONNXRuntime、MNN 与 Rockchip RKNN Runtime。",
+      "language": "C++",
+      "topics": [
+        "computer-vision",
+        "cpp",
+        "edge-ai",
+        "mnn",
+        "object-detection",
+        "onnxruntime",
+        "opencv",
+        "rknn",
+        "rockchip",
+        "yolov8"
+      ],
+      "stars": 0,
+      "forks": 0,
+      "updated": "2026-08-05T09:19:38Z",
+      "category": "边缘 AI 部署"
+    },
+    {
+      "name": "PointPillars_Deploy_Python",
+      "url": "https://github.com/pgf20160610/PointPillars_Deploy_Python",
+      "description": "面向 KITTI 3D 目标检测的 PointPillars 部署工程，支持 PyTorch checkpoint 拆分导出 ONNX/MNN、ONNXRuntime/MNN 推理、BEV/相机可视化与结果对齐诊断。",
+      "language": "Python",
+      "topics": [],
+      "stars": 0,
+      "forks": 0,
+      "updated": "2026-07-01T09:45:54Z",
+      "category": "边缘 AI 部署"
+    },
+    {
+      "name": "CenterPoint-onnx-mnn",
+      "url": "https://github.com/pgf20160610/CenterPoint-onnx-mnn",
+      "description": "该项目是一个面向自动驾驶场景的轻量化CenterPoint部署框架，通过 ONNX Runtime 和 MNN 实现跨平台高效推理，并提供完整的模型转换、推理、可视化及工程部署方案。",
+      "language": "Python",
+      "topics": [],
+      "stars": 1,
+      "forks": 0,
+      "updated": "2026-06-17T08:07:47Z",
+      "category": "边缘 AI 部署"
+    },
+    {
+      "name": "mini-kitti-dataset",
+      "url": "https://github.com/pgf20160610/mini-kitti-dataset",
+      "description": "mini KITTI 3D DATASET,测试集及训练集各取100个样本.",
+      "language": "Other",
+      "topics": [],
+      "stars": 0,
+      "forks": 0,
+      "updated": "2026-06-10T08:00:01Z",
+      "category": "3D 感知与 BEV"
+    },
+    {
+      "name": "crnn_ctc_ocr",
+      "url": "https://github.com/pgf20160610/crnn_ctc_ocr",
+      "description": "展示 OCR 模型从训练、导出、验证到 C++/MNN 端侧部署的完整工程化流程。",
+      "language": "Python",
+      "topics": [],
+      "stars": 0,
+      "forks": 0,
+      "updated": "2026-06-05T09:35:48Z",
+      "category": "OCR 与文档智能"
+    },
+    {
+      "name": "whisper-mnn",
+      "url": "https://github.com/pgf20160610/whisper-mnn",
+      "description": "mnn",
+      "language": "C++",
+      "topics": [],
+      "stars": 0,
+      "forks": 0,
+      "updated": "2026-06-03T06:13:02Z",
+      "category": "边缘 AI 部署"
+    },
+    {
+      "name": "ppocrv5_deploy_pipeline",
+      "url": "https://github.com/pgf20160610/ppocrv5_deploy_pipeline",
+      "description": "paddlepaddle ocr v5.0模型部署,官方公开模型自动下载转换、基于c++的onnx/mnn推理、基于python的onnx推理及shape验证，ocr识别结果可视化。",
+      "language": "C++",
+      "topics": [],
+      "stars": 2,
+      "forks": 1,
+      "updated": "2026-06-03T03:28:44Z",
+      "category": "边缘 AI 部署"
+    }
+  ]
+}
