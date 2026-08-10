@@ -1,6 +1,17 @@
 {
-  "generated_at": "2026-08-10T03:40:23.287946+00:00",
+  "generated_at": "2026-08-10T08:07:28.002820+00:00",
   "projects": [
+    {
+      "name": "yololiteSeg_deploy_onnx_mnn_rknn",
+      "url": "https://github.com/pgf20160610/yololiteSeg_deploy_onnx_mnn_rknn",
+      "description": "",
+      "language": "Other",
+      "topics": [],
+      "stars": 0,
+      "forks": 0,
+      "updated": "2026-08-10T07:23:16Z",
+      "category": "边缘 AI 部署"
+    },
     {
       "name": "yololitePose_deploy_onnx_mnn_rknn",
       "url": "https://github.com/pgf20160610/yololitePose_deploy_onnx_mnn_rknn",
