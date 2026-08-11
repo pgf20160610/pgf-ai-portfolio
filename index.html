@@ -1,18 +1,65 @@
 <!doctype html>
 <html lang="zh-CN">
 <head>
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width,initial-scale=1">
-<meta name="description" content="Guofeng Pan AI Engineering Portfolio">
-<title>Guofeng Pan · AI Engineer</title>
-<link rel="stylesheet" href="assets/style.css">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="description" content="Guofeng Pan 的 AI 工程作品集，涵盖计算机视觉、多模态 AI、3D 感知、边缘部署与机器人技术。">
+  <meta name="theme-color" content="#07111f">
+  <title>Guofeng Pan · AI Engineer</title>
+  <link rel="stylesheet" href="assets/style.css">
 </head>
 <body>
-<header><div class="wrap"><p class="eyebrow">AI ENGINEER</p><h1>Guofeng Pan</h1>
-<p>Computer Vision · Multimodal AI · 3D Perception · Edge AI · Robotics</p>
-<a href="https://github.com/pgf20160610" rel="noopener noreferrer">GitHub Profile →</a></div></header>
-<main class="wrap"><section><h2>研究方向</h2><div id="filters" class="filters"></div></section>
-<section id="latest"><h2>公开项目</h2><div id="projects" class="grid"></div></section></main>
-<footer class="wrap">© Guofeng Pan</footer>
-<script src="assets/app.js"></script>
-</body></html>
+  <a class="skip-link" href="#projects">跳到项目列表</a>
+  <header class="hero">
+    <nav class="nav wrap" aria-label="主导航">
+      <a class="brand" href="#top" aria-label="返回首页">GP<span aria-hidden="true">.</span></a>
+      <div class="nav-links">
+        <a href="#projects">项目</a>
+        <a href="https://github.com/pgf20160610" target="_blank" rel="noopener noreferrer">GitHub <span aria-hidden="true">↗</span></a>
+      </div>
+    </nav>
+    <div id="top" class="hero-content wrap">
+      <div class="hero-copy">
+        <p class="eyebrow"><span class="status-dot" aria-hidden="true"></span> AI ENGINEER · OPEN SOURCE BUILDER</p>
+        <h1>Guofeng Pan</h1>
+        <p class="hero-lead">专注于把 AI 模型带出实验室，构建从视觉感知、多模态理解到边缘部署的完整工程链路。</p>
+        <ul class="focus-list" aria-label="技术方向">
+          <li>Computer Vision</li><li>Multimodal AI</li><li>3D Perception</li><li>Edge AI</li><li>Robotics</li>
+        </ul>
+        <div class="hero-actions">
+          <a class="button button-primary" href="#projects">浏览公开项目 <span aria-hidden="true">↓</span></a>
+          <a class="button button-secondary" href="https://github.com/pgf20160610" target="_blank" rel="noopener noreferrer">访问 GitHub <span aria-hidden="true">↗</span></a>
+        </div>
+      </div>
+      <dl id="stats" class="stats" aria-label="作品集统计" aria-live="polite">
+        <div><dt id="project-count">—</dt><dd>公开项目</dd></div>
+        <div><dt id="category-count">—</dt><dd>研究方向</dd></div>
+        <div><dt id="language-count">—</dt><dd>主要语言</dd></div>
+      </dl>
+    </div>
+  </header>
+  <main>
+    <section id="projects" class="projects-section wrap" aria-labelledby="projects-title">
+      <div class="section-heading">
+        <div><p class="section-kicker">SELECTED WORK</p><h2 id="projects-title">公开项目</h2></div>
+        <p>持续更新的 AI 工程实践，覆盖模型、推理框架与真实硬件平台。</p>
+      </div>
+      <div class="explorer" aria-label="项目筛选与排序">
+        <div class="search-field">
+          <label for="project-search">搜索项目</label>
+          <div class="search-control"><span aria-hidden="true">⌕</span><input id="project-search" type="search" placeholder="名称、技术、语言或主题" autocomplete="off"></div>
+        </div>
+        <div class="sort-field">
+          <label for="project-sort">排序方式</label>
+          <select id="project-sort"><option value="recent">最近更新</option><option value="name">项目名称</option><option value="stars">Stars</option><option value="forks">Forks</option></select>
+        </div>
+        <div class="filter-field"><span class="field-label">研究方向</span><div id="filters" class="filters" role="group" aria-label="按研究方向筛选"></div></div>
+      </div>
+      <div class="results-bar"><p id="result-status" role="status" aria-live="polite">正在加载项目数据…</p><button id="clear-filters" class="text-button" type="button" hidden>清除筛选</button></div>
+      <div id="projects-grid" class="grid" aria-busy="true"><div class="state-card loading-state"><span class="loader" aria-hidden="true"></span><p>正在整理项目档案…</p></div></div>
+    </section>
+  </main>
+  <footer><div class="footer-content wrap"><div><strong>Guofeng Pan</strong><p>AI engineering, built for the real world.</p></div><div class="footer-links"><a href="#top">返回顶部 ↑</a><a href="https://github.com/pgf20160610" target="_blank" rel="noopener noreferrer">GitHub ↗</a></div></div></footer>
+  <script src="assets/app.js"></script>
+</body>
+</html>
