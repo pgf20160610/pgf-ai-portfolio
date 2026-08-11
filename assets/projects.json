@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-11T15:41:52.111561+00:00",
+  "generated_at": "2026-08-11T16:37:12.864913+00:00",
   "projects": [
     {
       "name": "yololiteObb_deploy_onnx_mnn_rknn",
@@ -7,17 +7,17 @@
       "description": "轻量级 YOLO 旋转目标检测 C++ 部署框架，支持 ONNXRuntime、MNN、RKNN、ProbIoU NMS 和 YAML 配置。",
       "language": "C++",
       "topics": [
-        "yolo",
-        "oriented-object-detection",
-        "obb",
         "computer-vision",
         "cpp",
-        "opencv",
-        "onnxruntime",
+        "edge-ai",
         "mnn",
+        "obb",
+        "onnxruntime",
+        "opencv",
+        "oriented-object-detection",
         "rknn",
         "rockchip",
-        "edge-ai"
+        "yolo"
       ],
       "stars": 0,
       "forks": 0,
