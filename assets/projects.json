@@ -1,6 +1,17 @@
 {
-  "generated_at": "2026-08-12T10:31:34.425116+00:00",
+  "generated_at": "2026-08-12T11:24:42.717134+00:00",
   "projects": [
+    {
+      "name": "nuscenes_validation",
+      "url": "https://github.com/pgf20160610/nuscenes_validation",
+      "description": "",
+      "language": "Other",
+      "topics": [],
+      "stars": 0,
+      "forks": 0,
+      "updated": "2026-08-12T11:01:20Z",
+      "category": "其他 AI / 工程项目"
+    },
     {
       "name": "yololiteObb_deploy_onnx_mnn_rknn",
       "url": "https://github.com/pgf20160610/yololiteObb_deploy_onnx_mnn_rknn",
