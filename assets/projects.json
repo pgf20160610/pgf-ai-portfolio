@@ -1,16 +1,25 @@
 {
-  "generated_at": "2026-08-12T11:24:42.717134+00:00",
+  "generated_at": "2026-08-12T12:07:49.747644+00:00",
   "projects": [
     {
       "name": "nuscenes_validation",
       "url": "https://github.com/pgf20160610/nuscenes_validation",
-      "description": "",
-      "language": "Other",
-      "topics": [],
+      "description": "nuScenes 到 ROS 2 的只读离线验证、rosbag2 录制与 RViz2 回放工作区。",
+      "language": "Python",
+      "topics": [
+        "nuscenes",
+        "ros2",
+        "rosbag2",
+        "point-cloud",
+        "lidar",
+        "radar",
+        "autonomous-driving",
+        "rviz"
+      ],
       "stars": 0,
       "forks": 0,
-      "updated": "2026-08-12T11:01:20Z",
-      "category": "其他 AI / 工程项目"
+      "updated": "2026-08-12T11:34:24Z",
+      "category": "机器人 / ROS2 / 标定"
     },
     {
       "name": "yololiteObb_deploy_onnx_mnn_rknn",
