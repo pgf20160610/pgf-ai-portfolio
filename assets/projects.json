@@ -1,15 +1,25 @@
 {
-  "generated_at": "2026-08-14T10:26:38.329617+00:00",
+  "generated_at": "2026-08-14T11:19:44.878070+00:00",
   "projects": [
     {
       "name": "multi_sensor_calibration",
       "url": "https://github.com/pgf20160610/multi_sensor_calibration",
-      "description": "",
-      "language": "Other",
-      "topics": [],
+      "description": "ROS 2 Humble 多传感器外参管理、验证、nuScenes 粗标定与 RViz2 人工精调模块。主要针对视觉、雷达感知项目。",
+      "language": "C++",
+      "topics": [
+        "ros2",
+        "calibration",
+        "lidar",
+        "camera",
+        "radar",
+        "imu",
+        "gnss",
+        "nuscenes",
+        "rviz"
+      ],
       "stars": 0,
       "forks": 0,
-      "updated": "2026-08-14T10:08:17Z",
+      "updated": "2026-08-14T11:18:16Z",
       "category": "机器人 / ROS2 / 标定"
     },
     {
