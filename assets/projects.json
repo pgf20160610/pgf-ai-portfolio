@@ -1,6 +1,17 @@
 {
-  "generated_at": "2026-08-14T09:15:46.593347+00:00",
+  "generated_at": "2026-08-14T10:26:38.329617+00:00",
   "projects": [
+    {
+      "name": "multi_sensor_calibration",
+      "url": "https://github.com/pgf20160610/multi_sensor_calibration",
+      "description": "",
+      "language": "Other",
+      "topics": [],
+      "stars": 0,
+      "forks": 0,
+      "updated": "2026-08-14T10:08:17Z",
+      "category": "机器人 / ROS2 / 标定"
+    },
     {
       "name": "nuscenes_validation",
       "url": "https://github.com/pgf20160610/nuscenes_validation",
