@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-17T15:11:14.649391+00:00",
+  "generated_at": "2026-08-17T15:40:31.848011+00:00",
   "projects": [
     {
       "name": "multi_sensor_calibration",
@@ -7,14 +7,14 @@
       "description": "ROS 2 Humble 多传感器外参管理、验证、nuScenes 粗标定与 RViz2 人工精调模块。主要针对视觉、雷达感知项目。",
       "language": "C++",
       "topics": [
-        "ros2",
         "calibration",
-        "lidar",
         "camera",
-        "radar",
-        "imu",
         "gnss",
+        "imu",
+        "lidar",
         "nuscenes",
+        "radar",
+        "ros2",
         "rviz"
       ],
       "stars": 0,
@@ -28,13 +28,13 @@
       "description": "nuScenes 到 ROS 2 的只读离线验证、rosbag2 录制与 RViz2 回放工作区。",
       "language": "Python",
       "topics": [
+        "autonomous-driving",
+        "lidar",
         "nuscenes",
+        "point-cloud",
+        "radar",
         "ros2",
         "rosbag2",
-        "point-cloud",
-        "lidar",
-        "radar",
-        "autonomous-driving",
         "rviz"
       ],
       "stars": 0,
@@ -48,17 +48,17 @@
       "description": "轻量级 YOLO 旋转目标检测 C++ 部署框架，支持 ONNXRuntime、MNN、RKNN、ProbIoU NMS 和 YAML 配置。",
       "language": "C++",
       "topics": [
-        "yolo",
-        "oriented-object-detection",
-        "obb",
         "computer-vision",
         "cpp",
-        "opencv",
-        "onnxruntime",
+        "edge-ai",
         "mnn",
+        "obb",
+        "onnxruntime",
+        "opencv",
+        "oriented-object-detection",
         "rknn",
         "rockchip",
-        "edge-ai"
+        "yolo"
       ],
       "stars": 0,
       "forks": 0,
@@ -71,16 +71,16 @@
       "description": "轻量级 YOLO 实例分割 C++ 部署框架，支持 ONNXRuntime、MNN、RKNN 和 YAML 配置。",
       "language": "C++",
       "topics": [
-        "yolo",
-        "instance-segmentation",
         "computer-vision",
         "cpp",
-        "opencv",
-        "onnxruntime",
+        "edge-ai",
+        "instance-segmentation",
         "mnn",
+        "onnxruntime",
+        "opencv",
         "rknn",
         "rockchip",
-        "edge-ai"
+        "yolo"
       ],
       "stars": 0,
       "forks": 0,
@@ -116,16 +116,16 @@
       "description": "轻量级 YOLO 多版本 C++ 检测部署框架，支持 ONNXRuntime、MNN、RKNN 和 YAML 配置。",
       "language": "C++",
       "topics": [
-        "yolo",
-        "object-detection",
         "computer-vision",
         "cpp",
-        "opencv",
-        "onnxruntime",
+        "edge-ai",
         "mnn",
+        "object-detection",
+        "onnxruntime",
+        "opencv",
         "rknn",
         "rockchip",
-        "edge-ai"
+        "yolo"
       ],
       "stars": 0,
       "forks": 0,
@@ -138,16 +138,16 @@
       "description": "轻量级 YOLOv8 C++ 检测部署工程，支持 ONNXRuntime、MNN 与 Rockchip RKNN Runtime。",
       "language": "C++",
       "topics": [
-        "yolov8",
-        "object-detection",
         "computer-vision",
         "cpp",
-        "opencv",
-        "onnxruntime",
+        "edge-ai",
         "mnn",
+        "object-detection",
+        "onnxruntime",
+        "opencv",
         "rknn",
         "rockchip",
-        "edge-ai"
+        "yolov8"
       ],
       "stars": 0,
       "forks": 0,
