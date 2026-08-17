@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-17T17:00:20.687579+00:00",
+  "generated_at": "2026-08-17T17:35:34.597848+00:00",
   "projects": [
     {
       "name": "multi_sensor_calibration",
@@ -116,16 +116,16 @@
       "description": "轻量级 YOLO 多版本 C++ 检测部署框架，支持 ONNXRuntime、MNN、RKNN 和 YAML 配置。",
       "language": "C++",
       "topics": [
-        "yolo",
-        "object-detection",
         "computer-vision",
         "cpp",
-        "opencv",
-        "onnxruntime",
+        "edge-ai",
         "mnn",
+        "object-detection",
+        "onnxruntime",
+        "opencv",
         "rknn",
         "rockchip",
-        "edge-ai"
+        "yolo"
       ],
       "stars": 0,
       "forks": 0,
