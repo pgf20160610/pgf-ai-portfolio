@@ -1,6 +1,17 @@
 {
-  "generated_at": "2026-08-20T08:03:18.554518+00:00",
+  "generated_at": "2026-08-20T08:43:47.461390+00:00",
   "projects": [
+    {
+      "name": "multi-sensor-pointcloud-platform",
+      "url": "https://github.com/pgf20160610/multi-sensor-pointcloud-platform",
+      "description": "",
+      "language": "C++",
+      "topics": [],
+      "stars": 0,
+      "forks": 0,
+      "updated": "2026-08-20T08:42:11Z",
+      "category": "机器人 / ROS2 / 标定"
+    },
     {
       "name": "multi_sensor_calibration",
       "url": "https://github.com/pgf20160610/multi_sensor_calibration",
