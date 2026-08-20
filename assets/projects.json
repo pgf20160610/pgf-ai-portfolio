@@ -1,15 +1,25 @@
 {
-  "generated_at": "2026-08-20T08:52:07.049543+00:00",
+  "generated_at": "2026-08-20T09:13:24.739531+00:00",
   "projects": [
     {
       "name": "multi-sensor-pointcloud-platform",
       "url": "https://github.com/pgf20160610/multi-sensor-pointcloud-platform",
-      "description": "",
+      "description": "ROS 2 Humble 多传感器点云平台，用于把 LiDAR、Radar、Camera、IMU 等输入统一到标准 ROS 2 Topic/TF/CameraInfo/PointCloud2 合约，并提供基础点云融合、语义/雷达关联、RViz2 可视化、调试导出、mock 全链路验收，以及 nuScenes mini 到 rosbag2 的离线转换工具。",
       "language": "C++",
-      "topics": [],
+      "topics": [
+        "ros2",
+        "calibration",
+        "lidar",
+        "camera",
+        "radar",
+        "imu",
+        "gnss",
+        "nuscenes",
+        "rviz"
+      ],
       "stars": 0,
       "forks": 0,
-      "updated": "2026-08-20T08:42:11Z",
+      "updated": "2026-08-20T09:10:34Z",
       "category": "机器人 / ROS2 / 标定"
     },
     {
