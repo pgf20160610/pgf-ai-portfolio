@@ -1,16 +1,24 @@
 {
-  "generated_at": "2026-08-25T10:28:18.346530+00:00",
+  "generated_at": "2026-08-25T10:46:20.795492+00:00",
   "projects": [
     {
       "name": "SAMLabeler-MNN",
       "url": "https://github.com/pgf20160610/SAMLabeler-MNN",
-      "description": "",
+      "description": "使用 MobileSAM + MNN + Qt 的轻量级语义分割与实例分割交互标注工具。",
       "language": "C++",
-      "topics": [],
+      "topics": [
+        "mobile-sam",
+        "mnn",
+        "qt",
+        "opencv",
+        "annotation-tool",
+        "semantic-segmentation",
+        "instance-segmentation"
+      ],
       "stars": 0,
       "forks": 0,
-      "updated": "2026-08-25T10:22:37Z",
-      "category": "边缘 AI 部署"
+      "updated": "2026-08-25T10:32:53Z",
+      "category": "2D 视觉 / 检测 / 姿态"
     },
     {
       "name": "multi-sensor-pointcloud-platform",
