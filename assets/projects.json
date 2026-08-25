@@ -1,6 +1,17 @@
 {
-  "generated_at": "2026-08-25T09:40:05.408755+00:00",
+  "generated_at": "2026-08-25T10:06:05.532458+00:00",
   "projects": [
+    {
+      "name": "SAMLabeler-MNN",
+      "url": "https://github.com/pgf20160610/SAMLabeler-MNN",
+      "description": "",
+      "language": "Other",
+      "topics": [],
+      "stars": 0,
+      "forks": 0,
+      "updated": "2026-08-25T10:01:00Z",
+      "category": "边缘 AI 部署"
+    },
     {
       "name": "multi-sensor-pointcloud-platform",
       "url": "https://github.com/pgf20160610/multi-sensor-pointcloud-platform",
