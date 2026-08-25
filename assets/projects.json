@@ -1,15 +1,15 @@
 {
-  "generated_at": "2026-08-25T10:06:05.532458+00:00",
+  "generated_at": "2026-08-25T10:28:18.346530+00:00",
   "projects": [
     {
       "name": "SAMLabeler-MNN",
       "url": "https://github.com/pgf20160610/SAMLabeler-MNN",
       "description": "",
-      "language": "Other",
+      "language": "C++",
       "topics": [],
       "stars": 0,
       "forks": 0,
-      "updated": "2026-08-25T10:01:00Z",
+      "updated": "2026-08-25T10:22:37Z",
       "category": "边缘 AI 部署"
     },
     {
