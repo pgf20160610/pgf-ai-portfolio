@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-27T00:06:02.043812+00:00",
+  "generated_at": "2026-08-27T09:36:26.682421+00:00",
   "projects": [
     {
       "name": "SAMLabeler-MNN",
@@ -15,7 +15,7 @@
         "semantic-segmentation",
         "instance-segmentation"
       ],
-      "stars": 0,
+      "stars": 1,
       "forks": 0,
       "updated": "2026-08-25T10:32:53Z",
       "category": "2D 视觉 / 检测 / 姿态"
