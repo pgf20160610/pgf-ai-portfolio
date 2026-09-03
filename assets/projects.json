@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-03T00:45:28.035201+00:00",
+  "generated_at": "2026-09-03T05:12:08.480999+00:00",
   "projects": [
     {
       "name": "lerobot_act_trt",
@@ -20,7 +20,7 @@
       ],
       "stars": 1,
       "forks": 0,
-      "updated": "2026-09-02T08:20:34Z",
+      "updated": "2026-09-03T02:53:49Z",
       "category": "边缘 AI 部署"
     },
     {
